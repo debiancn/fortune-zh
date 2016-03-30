@@ -4,7 +4,6 @@ fortune-zh (2.0) UNRELEASED; urgency=low
   * Fix invalid encodings in tang300 (LP: #499664)
   * Add new Chinese cookie.
   * Refresh debian/copyright.
-  * Record the significant change of fortune-zh 2.0 in README.debian
   * Update description.
   * Update manpage.
   * Simplify Makefile, removing redundant lines.
