@@ -5,7 +5,7 @@ fortune-zh (2.0) UNRELEASED; urgency=low
   * Use https link in both Vcs-Git and Vcs-Browser.
   * Fix invalid encodings in tang300 (LP: #499664)
   * Add new Chinese cookie.
-  * Refresh debian/copyright.
+  * Rewrite d/copyright in dep8 machine-readable style.
   * Update package description.
   * Update manpage man/fortune-zh.6 .
   * Simplify Makefile, removing redundant lines.

@@ -1,20 +1,35 @@
-This package was debianized by Yu Guanghui ygh@debian.org on
-Thu,  1 Mar 2001 00:21:15 +0800.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: fortune-zh
+Source: https://anonscm.debian.org/gitweb/?p=chinese/fortune-zh.git
 
-Upstream Author: Yu Guanghui <ygh@debian.org>
-
-Copyright © 2001-2009 Yu Guanghui <ygh@debian.org>
-Copyright © 2015 Zhou Mo <cdluminate@gmail.com>
-Copyright © 2015 GuShiWen.org Contributors
-Copyright © 2015 Wikiquote.org Contributors
-
+Files:     *
+Copyright: 2001-2009 Yu Guanghui <ygh@debian.org>
+           2015-2016 Zhou Mo     <cdluminate@gmail.com>
 Comment:
- Contents under directory chinese.d/ are mostly copied from
- GuShiWen.org, and Wikiquote.org.
+ This package was debianized by Yu Guanghui ygh@debian.org on
+ Upstream Author: Yu Guanghui <ygh@debian.org>
+ .
+ This software maybe copied under the terms of the GNU General Public Licence
+ (see below).
+ .
+ On Debian systems, you can find the complete GNU GPL at
+ /usr/share/common-licenses/GPL.
+ .
+ Thu,  1 Mar 2001 00:21:15 +0800.
+License: GPL-3.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
-Copyright: 
-This software maybe copied under the terms of the GNU General Public Licence
-(see below).
-
-On Debian systems, you can find the complete GNU GPL at
-/usr/share/common-licenses/GPL.
