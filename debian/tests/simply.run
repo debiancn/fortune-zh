@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+
+# simple run fortune-zh. Script fortune-zh should be ok if it passes this.
+fortune-zh
+
+# let's see if the three cookies shipped in this package works as expected.
+fortune chinese
+fortune tang300
+fortune song100
+
+# Now I guess this package is ok.
+exit 0
