@@ -9,12 +9,6 @@ Comment:
  This package was debianized by Yu Guanghui ygh@debian.org on
  Upstream Author: Yu Guanghui <ygh@debian.org>
  .
- This software maybe copied under the terms of the GNU General Public Licence
- (see below).
- .
- On Debian systems, you can find the complete GNU GPL at
- /usr/share/common-licenses/GPL.
- .
  Thu,  1 Mar 2001 00:21:15 +0800.
 License: GPL-3.0+
  This program is free software: you can redistribute it and/or modify
