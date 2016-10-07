@@ -12,6 +12,7 @@ fortune-zh (2.0) UNRELEASED; urgency=low
   * Remove .u8 symlinks. Use fortune-zh.links to make symlinks instead.
   * Override false positive lintian: capitalization-error-in-description .
   * Add autopkgtest support -- test fortune-zh script and cookie files.
+  * Add TODO file.
 
  -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
 
