@@ -16,6 +16,6 @@ Description: Chinese Data files for fortune
  UTF-8 encoding.
  .
  cookies included in this package:
-  * tang300 (300 Tang Poems)
-  * song100 (100 Song Poems)
-  * chinese (Misc chinese cookie)
+  * tang300: 300 Tang Poems
+  * song100: 100 Song Poems
+  * chinese: Misc Chinese Collection
