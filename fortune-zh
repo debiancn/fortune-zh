@@ -3,8 +3,9 @@
 set -e
 
 FORTUNE="/usr/games/fortune"
+[ -x $FORTUNE ] || echo "E: Please install package 'fortune-mod'."; false
 
-# the old version (1.*) of fortune-zh only has tang300 and song100
+# the old version (1.*) of fortune-zh contains only tang300 and song100
 DICT="18% tang300 05% song100 77% chinese"
 
 # check LANG
