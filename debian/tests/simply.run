@@ -2,9 +2,9 @@
 set -e
 
 # let's see if the three cookies shipped in this package work as expected.
-fortune chinese
-fortune tang300
-fortune song100
+/usr/games/fortune chinese
+/usr/games/fortune tang300
+/usr/games/fortune song100
 
 # simply run fortune-zh for several times to see whether it's working.
 for i in $(seq 10); do
