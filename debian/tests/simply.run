@@ -8,7 +8,7 @@ set -e
 
 # simply run fortune-zh for several times to see whether it's working.
 for i in $(seq 10); do
-  fortune-zh
+  /usr/games/fortune-zh
 done
 
 # Package is ok.
