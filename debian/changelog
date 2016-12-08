@@ -1,4 +1,4 @@
-fortune-zh (2.0) UNRELEASED; urgency=medium
+fortune-zh (2.0) unstable; urgency=medium
 
   * New 2.X release.
   * Bump standards version to 3.9.8 . (requires no change)
@@ -17,7 +17,7 @@ fortune-zh (2.0) UNRELEASED; urgency=medium
   [ Boyuan Yang ]
   * Add a Simplified Chinese manpage.
 
- -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
+ -- Zhou Mo <cdluminate@gmail.com>  Thu, 08 Dec 2016 06:03:42 +0000
 
 fortune-zh (1.11) unstable; urgency=medium
 
