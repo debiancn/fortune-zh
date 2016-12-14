@@ -1,18 +1,19 @@
 fortune-zh (2.0) unstable; urgency=medium
 
   * New 2.X release.
-  * Bump standards version to 3.9.8 . (requires no change)
-  * Use https link in both Vcs-Git and Vcs-Browser section.
   * Fix invalid encodings in tang300 (LP: #499664)
-  * Add new Chinese cookie under chinese.d/ .
-  * Rewrite d/copyright in dep8 machine-readable style.
+  * Use https link in both Vcs-Git and Vcs-Browser section.
+  * Bump standards version to 3.9.8 . (requires no change)
   * Update package description.
+  * Add new Chinese cookies under chinese.d/ .
+  * Rewrite d/copyright in dep8 machine-readable style.
   * Update manpage man/fortune-zh.6 .
-  * Simplify Makefile, removing redundant lines.
+  * Simplify Makefile by removing redundant lines.
   * Remove .u8 symlinks. Use fortune-zh.links to create symlinks instead.
-  * Override false positive lintian: capitalization-error-in-description .
-  * Add autopkgtest support -- test fortune-zh script and cookie files.
   * Update fortune-zh script.
+  * Add autopkgtest support -- test fortune-zh script and cookie files.
+  * Override false positive lintian: capitalization-error-in-description .
+  * Bump debhelper compat to 10.
 
   [ Boyuan Yang ]
   * Add a Simplified Chinese manpage.

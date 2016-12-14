@@ -3,7 +3,7 @@ Section: games
 Priority: optional
 Maintainer: Debian Chinese Team <chinese-developers@lists.alioth.debian.org>
 Uploaders: Zhou Mo <cdluminate@gmail.com>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 10),
                fortune-mod,
 Standards-Version: 3.9.8
 Vcs-Git: https://anonscm.debian.org/git/chinese/fortune-zh.git
