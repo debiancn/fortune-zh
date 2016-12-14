@@ -2,7 +2,7 @@ fortune-zh (2.0) unstable; urgency=medium
 
   * New 2.X release.
   * Fix invalid encodings in tang300 (LP: #499664)
-  * Use https link in both Vcs-Git and Vcs-Browser section.
+  * Update https links in Vcs-Git and Vcs-Browser fields.
   * Bump standards version to 3.9.8 . (requires no change)
   * Update package description.
   * Add new Chinese cookies under chinese.d/ .
