@@ -1,3 +1,10 @@
+fortune-zh (2.1) UNRELEASED; urgency=medium
+
+  * Make the findutil traversal order fixed to fix reproducibility.
+    Thanks to Chris Lamb <lamby@debian.org>. (Closes: #850505)
+
+ -- Zhou Mo <cdluminate@gmail.com>  Mon, 09 Jan 2017 14:04:08 +0000
+
 fortune-zh (2.0) unstable; urgency=medium
 
   * New 2.X release.

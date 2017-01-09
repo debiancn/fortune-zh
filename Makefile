@@ -15,7 +15,7 @@ stat:
 	strfile $< $<.dat
 chinese.dat: 
 	touch chinese
-	find chinese.d -type f -name '*.dat' -exec cat '{}' \; >> chinese
+	find chinese.d -type f -name '*.dat' -print0 | LC_ALL=C sort -z | xargs -0r cat | cat >> chinese
 	strfile chinese
 
 distclean: clean
