@@ -10,6 +10,22 @@ Vcs-Browser: https://anonscm.debian.org/cgit/chinese/fortune-zh.git
 Vcs-Git: https://anonscm.debian.org/git/chinese/fortune-zh.git
 
 Package: fortune-zh
+Section: oldlibs
+Priority: extra
+Architecture: all
+Depends: fortunes-zh (>= ${source:Version}), ${misc:Depends}
+Description: Chinese Data files for fortune (dummy transitional package)
+ This package contains the Chinese data files for fortune in
+ UTF-8 encoding.
+ .
+ cookies included in this package:
+  * tang300: 300 Tang Poems
+  * song100: 100 Song Poems
+  * chinese: Misc Chinese Collection
+ .
+ This is a dummy transitional package of fortunes-zh.
+
+Package: fortunes-zh
 Architecture: all
 Depends: ${misc:Depends}, fortune-mod
 Description: Chinese Data files for fortune
