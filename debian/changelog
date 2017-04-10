@@ -1,4 +1,4 @@
-fortune-zh (2.2) UNRELEASED; urgency=medium
+fortune-zh (2.2) experimental; urgency=medium
 
   * Substitute the replacement Chiense characters with the original one.
     There is still a character remains to be fixed, as said in d/TODO.
@@ -8,7 +8,7 @@ fortune-zh (2.2) UNRELEASED; urgency=medium
     "fortune-zh" is now a dummy transitional package.
   * New lintian overrides for fortune-zh.
 
- -- Zhou Mo <cdluminate@gmail.com>  Mon, 10 Apr 2017 06:12:07 +0000
+ -- Zhou Mo <cdluminate@gmail.com>  Mon, 10 Apr 2017 06:47:11 +0000
 
 fortune-zh (2.1) unstable; urgency=medium
 
