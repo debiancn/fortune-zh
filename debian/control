@@ -28,6 +28,7 @@ Description: Chinese Data files for fortune (dummy transitional package)
 Package: fortunes-zh
 Architecture: all
 Depends: ${misc:Depends}, fortune-mod
+Breaks: fortune-zh (<= 2.1)
 Description: Chinese Data files for fortune
  This package contains the Chinese data files for fortune in
  UTF-8 encoding.
