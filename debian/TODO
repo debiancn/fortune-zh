@@ -1,3 +1,8 @@
 * Add more cookies -- but this task seems endless!
 * change binary package name to fortunes-zh. try apt list fortune\* to find
   out why.
+* Fix this Chinese character:
+    ack ］
+      song100
+      391:宜蚕使汝茧如瓮，宜畜使汝羊如□［鹿下菌字去草头］。
+
