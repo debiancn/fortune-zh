@@ -7,7 +7,8 @@ fortune-zh (2.2) experimental; urgency=medium
     fortune cookie packages are named as "fortunes-*". The binary package
     "fortune-zh" is now a dummy transitional package.
   * New lintian overrides for fortune-zh.
-  * Binary package fortunes-zh breaks fortune-zh (<= 2.1).
+  * Binary package fortunes-zh breaks and replaces fortune-zh (<< 2.2).
+    Binary package fortune-zh depends on fortunes-zh.
 
  -- Zhou Mo <cdluminate@gmail.com>  Mon, 10 Apr 2017 06:47:11 +0000
 

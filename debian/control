@@ -13,7 +13,7 @@ Package: fortune-zh
 Section: oldlibs
 Priority: extra
 Architecture: all
-Depends: fortunes-zh (>= ${source:Version}), ${misc:Depends}
+Depends: fortunes-zh, ${misc:Depends}
 Description: Chinese Data files for fortune (dummy transitional package)
  This package contains the Chinese data files for fortune in
  UTF-8 encoding.
@@ -28,7 +28,8 @@ Description: Chinese Data files for fortune (dummy transitional package)
 Package: fortunes-zh
 Architecture: all
 Depends: ${misc:Depends}, fortune-mod
-Breaks: fortune-zh (<= 2.1)
+Breaks: fortune-zh (<< 2.2)
+Replaces: fortune-zh (<< 2.2)
 Description: Chinese Data files for fortune
  This package contains the Chinese data files for fortune in
  UTF-8 encoding.
