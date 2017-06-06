@@ -1,9 +1,9 @@
-fortune-zh (2.3) UNRELEASED; urgency=medium
+fortune-zh (2.3) experimental; urgency=medium
 
   * Fix the last replacement character in song100 and remove the
     corresponding TODO entry. (See: #850905)
 
- -- Zhou Mo <cdluminate@gmail.com>  Tue, 06 Jun 2017 05:06:00 +0000
+ -- Zhou Mo <cdluminate@gmail.com>  Tue, 06 Jun 2017 05:07:34 +0000
 
 fortune-zh (2.2) experimental; urgency=medium
 
