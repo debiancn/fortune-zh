@@ -5,7 +5,7 @@ Gao Yichuan: 感觉可以进段子了...
              “你读博士读傻了！”
 Aron Xu:     毕业毕傻了
 
-  -- 论为什么不能读博 #137
+  -- 论为什么不能读博 tuna-collection#137
 %
 北京的 Debian Stretch Release Party 上出现了 coreboot 社区的开发者，
 大家聊到了 coreboot 和 libreboot。
@@ -14,7 +14,7 @@ Aron Xu:     毕业毕傻了
 
 “Windows 也许会非常需要这个库。”
 
-  -- libReboot #136
+  -- libReboot tuna-collection#136
 %
 bigeagle: 今天我们给大家带来了好多贴纸，有tuna的，有BLUG的，有USTC的...
 Chris: 大家好我是来自Debian社区的! 我也带来了Debian的贴!纸!
@@ -22,13 +22,13 @@ bigeagle: Chris 你看这个王羲之的贴纸送给你。(展卷轴)
 bigeagle: 你看这幅字上面有好多印章了没，是 ancient chinese 在开 signing party ...
 Chris: woc.
 
-  -- 终极贴纸 #135
+  -- 终极贴纸 tuna-collection#135
 %
 Kang Wang: PostgreSQL怎么翻译？
 
 考完GRE再考SQL？
 
-  -- PostgreSQL #119
+  -- PostgreSQL tuna-collection#119
 %
 大鹰和喵汪在看 google 的 AOSP repo 代码
 
@@ -41,17 +41,17 @@ Kang Wang: PostgreSQL怎么翻译？
 
 喵汪：因为缩进四格可能使得游标卡尺超过量程
 
-  -- 缩进 #98
+  -- 缩进 tuna-collection#98
 %
 xiaq: 过阵子就可以 Hello from Telegram for Windows running on
       CrossOver for Android running on Chrome OS 了
 
-  -- Hello #92
+  -- Hello tuna-collection#92
 %
 Icenowy: I don't think there's anyone who want to discriminate LGBT in Tuna.
 Delton Ding: TUNA 是一个连 Vim 和 Emacs 用户都能兼容并包的地方
 
-  -- 兼容并包的协会 #90
+  -- 兼容并包的协会 tuna-collection#90
 %
 某月某日，大鹰在处理 fishroom ID 映射错乱的问题，希望能有一个好的解决方案。
 
@@ -66,14 +66,14 @@ Justin Wong: 这时 teleboto 在 telegram 给我发一个 token，
 [bigeag1e]:  这样我就不会被假冒了
 Justin Wong: 说着我就被假冒了
 
-  -- Fishroom 假冒事件 #89
+  -- Fishroom 假冒事件 tuna-collection#89
 %
 催化納：黄金大米转了几个基因？
 大大：美声有几种唱法？
 孔乙己：茴字有几种写法？
 蛤力橙：TUNA 有几个全称？
 
-  -- 美声有几种唱法？ #87
+  -- 美声有几种唱法？ tuna-collection#87
 %
 大鹰：K80 性能不行，不就是双核吗，单核性能和 K40 差不多，
       还贼耗电，我们的丹炉不用
@@ -89,7 +89,7 @@ Justin Wong: 说着我就被假冒了
 （不怕作死的）蛤力陈：“大概是返回了个随机数”
 大鹰：woc
 
-  -- 炼丹的精度 #85
+  -- 炼丹的精度 tuna-collection#85
 %
 Aron: ZFS 是一个非常高级的文件系统，他有 (此处省略65535字) 这么些高级特性，
       所以当初做宣传的时候，就说它是 The Last Word in File Systems，
@@ -101,14 +101,14 @@ Aron: 恩，有一套管理工具
 
 Scateu: 不是，我是说，是不是为了管理 ZFS，他们写了 ZSH ？
 
-  -- The Last Word in ... #81
+  -- The Last Word in ... tuna-collection#81
 %
 Justin Wong: 科大有个班级做游戏，男生要说假话，女生说真话。
              班主任向班里的50个同学挨个询问我们班有几个女生，
              第一个同学说1个，第二个同学说两个，依此类推，第五十个同学说50个。
              那么这个班男女比例是多少？
 
-  -- 男女生比例 #76
+  -- 男女生比例 tuna-collection#76
 %
 申请中如是写：
 
@@ -118,7 +118,7 @@ Justin Wong: 科大有个班级做游戏，男生要说假话，女生说真话�
   书的作者不是别人，正是清华大学的谭浩强教授。看了他的教材之后，就逐渐萌生
   了将来一定要去清华读书的想法。后来，我凭借着较强的自
 
-  -- 如何Fail清华自主招生 #74
+  -- 如何Fail清华自主招生 tuna-collection#74
 %
 （以前看到的）
 甲：你的地址是多少？
@@ -126,7 +126,7 @@ Justin Wong: 科大有个班级做游戏，男生要说假话，女生说真话�
 甲：……我是说……物理地址……
 乙：20:68:9D:89:23:C1
 
-  -- 地址 #72
+  -- 地址 tuna-collection#72
 %
 Tunight
 
@@ -136,7 +136,7 @@ Tunight
 大鹰：中国最年轻的 Debian 开发者
 (这时 Aron Xu 默默地掏出了一台 MacBook
 
-  -- 中国最年轻 #71
+  -- 中国最年轻 tuna-collection#71
 %
 背景：pero 看着三个管信息化教学的老师给吴老板连了25分钟投影仪未果
 
@@ -146,14 +146,14 @@ Tunight
 
 吴老板：“这个…我们研究的是计算机内部的原理……我的计算机没有问题…是这个投影仪的问题…………这个投影仪是EE管的”
 
-  -- 吴老板 #60
+  -- 吴老板 tuna-collection#60
 %
 xiaq: 有个早年的作家批判过这种迂回表达的现象来着
 xiaq: s/有个早年的/早年有个/
 ggarlic: 慎用sed愈发
 ggarlic: s/愈发/语法/
 
-  -- 以身作则慎用 sed 语法 #56
+  -- 以身作则慎用 sed 语法 tuna-collection#56
 %
 
 Justin Wang: 下雪了:joy:
@@ -163,7 +163,7 @@ Justin Wang: 罗姆楼
 Justin Wang: （如何一句话形容清华有多大
 Shao Cheng: 紫2这里没下
 
-  -- 清华有多大 #52
+  -- 清华有多大 tuna-collection#52
 %
 发信人: Scateu, 信区: Joke
 标 题: 某位新入学的小MM问..
@@ -184,9 +184,9 @@ Shao Cheng: 紫2这里没下
 
 当年我们做手工课的时候做过的...
 
-more: #22
+more: tuna-collection#22
 
-  -- 网线IV #49
+  -- 网线IV tuna-collection#49
 %
 Boyuan Yang: 贵校latex模板发展挺好，敝校模板正处于青黄不接的阶段挺坑的，不过幸好离毕业还有一年多
 
@@ -197,7 +197,7 @@ Scateu: "9名超人气偶像组成了....."
 
 Justin Wong: TeX Live!
 
-  -- TeX Live! #28
+  -- TeX Live! tuna-collection#28
 %
 Justin: 你们知道世界一流大学 C 语言门吗？
 
@@ -211,15 +211,15 @@ Justin: 女生 B 把女生 A 的男朋友 ℂ 抢来了，并且在某一个晚�
 
 Xavier: 结对编程？
 
-  -- 结对编程 #25
+  -- 结对编程 tuna-collection#25
 %
 波音777的权限这么高真的安全吗？
 
-  -- 权限 #7
+  -- 权限 tuna-collection#7
 %
 scateu: 刚刚测试了一下9Gb/s的极限数据传输:
 
 出租车，30分钟，传送2T的硬盘
 
-  -- 出租车 #5
+  -- 出租车 tuna-collection#5
 %
