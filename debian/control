@@ -11,7 +11,6 @@ Vcs-Git: https://anonscm.debian.org/git/chinese/fortune-zh.git
 
 Package: fortune-zh
 Section: oldlibs
-Priority: optional
 Architecture: all
 Depends: fortunes-zh, ${misc:Depends}
 Description: Chinese Data files for fortune (dummy transitional package)
