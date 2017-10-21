@@ -5,13 +5,13 @@ Maintainer: Debian Chinese Team <chinese-developers@lists.alioth.debian.org>
 Uploaders: Zhou Mo <cdluminate@gmail.com>
 Build-Depends: debhelper (>= 10),
                fortune-mod,
-Standards-Version: 4.0.0
+Standards-Version: 4.1.1
 Vcs-Browser: https://anonscm.debian.org/cgit/chinese/fortune-zh.git
 Vcs-Git: https://anonscm.debian.org/git/chinese/fortune-zh.git
 
 Package: fortune-zh
 Section: oldlibs
-Priority: extra
+Priority: optional
 Architecture: all
 Depends: fortunes-zh, ${misc:Depends}
 Description: Chinese Data files for fortune (dummy transitional package)
