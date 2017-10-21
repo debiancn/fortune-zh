@@ -1,3 +1,14 @@
+fortune-zh (2.5) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.1.1 .
+    + Replace the 'extra' priority with 'optional' for the dummy
+      transitional package.
+  * Update my name in control and copyright.
+  * Import new cookies 'shijing', partially done. (see #850903)
+  * fortune-zh: Update probability for each cookie file.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Sat, 21 Oct 2017 03:09:37 +0000
+
 fortune-zh (2.4) unstable; urgency=medium
 
   * New cookie collection "tuna-collection".
