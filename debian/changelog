@@ -1,3 +1,11 @@
+fortune-zh (2.6) unstable; urgency=medium
+
+  * Automatically colorize the chinese.dat cookie at build time with
+    hardcoded color via awk and sed when a specific pattern is matched.
+    The color scheme is consistent with the ancient one.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Sun, 03 Dec 2017 12:25:46 +0000
+
 fortune-zh (2.5) unstable; urgency=medium
 
   * Bump Standards-Version to 4.1.1 .
@@ -185,7 +193,3 @@ fortune-zh (1.0) unstable; urgency=low
   * Initial release.
 
  -- Yu Guanghui <ygh@debian.org>  Thu,  1 Mar 2001 00:21:15 +0800
-
-Local variables:
-mode: debian-changelog
-End:
