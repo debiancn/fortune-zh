@@ -1,56 +1,56 @@
 模块原则：使用简洁的接口拼合简单的部件。
-    -- UNIX哲学基础第一条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第一条，《UNIX编程艺术》
 %
 清晰原则：清晰胜于技巧。
-    -- UNIX哲学基础第二条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第二条，《UNIX编程艺术》
 %
 组合原则：设计时考虑拼接组合。
-    -- UNIX哲学基础第三条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第三条，《UNIX编程艺术》
 %
 分离原则：策略同机制分离，接口同引擎分离。
-    -- UNIX哲学基础第四条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第四条，《UNIX编程艺术》
 %
 简洁原则：设计要简洁，复杂度能低则低。
-    -- UNIX哲学基础第五条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第五条，《UNIX编程艺术》
 %
 吝啬原则：除非别无他法，不要编写庞大的程序。
-    -- UNIX哲学基础第六条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第六条，《UNIX编程艺术》
 %
 透明性原则：设计要可见，以便审查和调试。
-    -- UNIX哲学基础第七条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第七条，《UNIX编程艺术》
 %
 健壮原则：健壮源于透明与简洁。
-    -- UNIX哲学基础第八条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第八条，《UNIX编程艺术》
 %
 表示原则：将知识叠入数据，以求逻辑质朴而健壮。
-    -- UNIX哲学基础第九条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第九条，《UNIX编程艺术》
 %
 通俗原则：接口设计应避免标新立异。
-    -- UNIX哲学基础第十条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第十条，《UNIX编程艺术》
 %
 缄默原则：如果一个程序没有什么好说的，那就保持沉默。
-    -- UNIX哲学基础第十一条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第十一条，《UNIX编程艺术》
 %
 补救原则：出现异常时，马上退出并给出足量错误信息。
-    -- UNIX哲学基础第十二条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第十二条，《UNIX编程艺术》
 %
 经济原则：宁花机器一分，不花程序员一秒。
-    -- UNIX哲学基础第十三条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第十三条，《UNIX编程艺术》
 %
 生成原则：避免手工Hack，尽量编写程序去生成程序。
-    -- UNIX哲学基础第十四条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第十四条，《UNIX编程艺术》
 %
 优化原则：雕琢前先得有原型，跑之前先学会走。
-    -- UNIX哲学基础第十五条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第十五条，《UNIX编程艺术》
 %
 多样原则：绝不相信“不二法门”的断言。
-    -- UNIX哲学基础第十六条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第十六条，《UNIX编程艺术》
 %
 扩展原则：设计着眼未来，未来总比预想快。
-    -- UNIX哲学基础第十七条，《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, UNIX哲学基础第十七条，《UNIX编程艺术》
 %
 K.I.S.S -- Keep It Simple, Stupid!
-    -- UNIX哲学，《UNIX编程艺术》by ESR
+    -- UNIX哲学，《UNIX编程艺术》
 %
 不懂UNIX的人最终还要重复发明一个蹩脚的UNIX。
     -- Usenet签名，1987年11月，Henry Spencer
@@ -63,34 +63,34 @@ K.I.S.S -- Keep It Simple, Stupid!
 %
 彻头彻尾的反Unix系统，就是没有任何统一性理念，
 胡乱堆砌起的一些唬人特性而已。
-    -- 《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, 《UNIX编程艺术》
 %
 彻头彻尾的反Unix系统，就是绝无多任务处理能力 -- 或者通过对进程管理
 增设诸多规定、限制和特殊情况来削弱多任务处理能力 -- 的一个废物。
-    -- 《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, 《UNIX编程艺术》
 %
 彻头彻尾的反Unix系统，就是让进程的生成代价高昂，让进程的控制
 困难而死板，让IPC可有可无，对它不予支持或支持很少。
-    -- 《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, 《UNIX编程艺术》
 %
 彻头彻尾的反Unix系统，应用一套拙劣的记录结构，任何特定的工具能否像
 文件编写者希望的那样读懂文件，完全是靠运气。
-    -- 《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, 《UNIX编程艺术》
 %
 彻头彻尾的反Unix系统，让所有文件格式都采用不透明的二进制格式，
 后者要用重量级的工具才能读取和编辑。
-    -- 《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, 《UNIX编程艺术》
 %
 彻头彻尾的反Unix系统，就是没有CLI，没有脚本编程能力 -- 或者，
 存在CLI不能驱动的重要功能。
-    -- 《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, 《UNIX编程艺术》
 %
 彻头彻尾的反Unix系统，就是一个自认为比你自己更懂你在干什么的操作系统，
 然后雪上加霜的是，它还做错了。
-    -- 《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, 《UNIX编程艺术》
 %
 彻头彻尾的反Unix系统，不可能进行轻松编程。
-    -- 《UNIX编程艺术》by ESR
+    -- Eric S. Raymond, 《UNIX编程艺术》
 %
 软件设计有两种方式：一种是设计得极为简洁，没有看得到的缺陷；
 另一种是设计得极为复杂，有缺陷也看不出来。第一种方式的难度要大得多。
