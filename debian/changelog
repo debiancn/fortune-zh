@@ -1,3 +1,13 @@
+fortune-zh (2.7) unstable; urgency=medium
+
+  * Overhaul the cookies.
+  * Finish the chinese.d/shijing.d/shijing.dat cookie. (Closes: #850903)
+  * Point Vcs-* fields to Salsa.
+  * Bump Standards-Version to 4.1.3 (no change).
+  * Bump debhelper compat to 11.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Thu, 08 Feb 2018 16:12:08 +0000
+
 fortune-zh (2.6) unstable; urgency=medium
 
   * Automatically colorize the chinese.dat cookie at build time with
