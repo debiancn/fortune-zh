@@ -5,7 +5,7 @@ fortune-zh for Debian
 这个软件包包含了fortune软件的中文数据文件和一个用来处理中文编码的简单脚本。
 数据文件包括了tang300《唐诗300首》和其它中国古典诗词。
 
-This software package contians the chinese data files for fortune and a simple
+This software package contains the chinese data files for fortune and a simple
 script to handle the chinese encoding conversion. Those libraries are
 tang300 <<Tang's_300_Poems>> and other chinese classical poetry.
 
