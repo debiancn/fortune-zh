@@ -1,0 +1,17 @@
+贝叶斯定理 (Bayes' Theorem)
+https://en.wikipedia.org/wiki/Bayes%27_theorem
+
+                     P(B|A) P(A)
+           P(A|B) = -------------
+                        P(B)
+
+其中 A 和 B 均为事件，并且 P(B)≠0 。
+%
+欧拉公式 (Euler's Formula)
+https://en.wikipedia.org/wiki/Euler_formula
+
+             ix
+           e    = cos(x) + i sin(x)
+
+其中 e 为自然对数的底，i 为单位虚数，sin/cos为三角函数，参数 x 单位是弧度。
+%
