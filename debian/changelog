@@ -1,3 +1,22 @@
+fortune-zh (2.8) unstable; urgency=medium
+
+  [ Boyuan Yang ]
+  * d/README.debian: Fix typo
+
+  [ Mo Zhou ]
+  * Add new cookies to cyberspeak.dat .
+  * Merge an ancient GPL-3 licensed fortune-zh friend project.
+    + See chinese.d/contrib.d/fortune-mod-zh.meta
+  * Create new cookie file moegirl.dat .
+  * Add translated quotes from Richard. M. Stallman. (chinese.d/rms.dat)
+  * Update tuna-collection cookies.
+  * Create science cookies. (chinese.d/science.dat)
+  * Merge contributed cookies from shu <lliocian@gmail.com>, thanks!
+  * Create symlinks for the imported ancient project.
+  * Makefile: Also Glob cookie from symbol links.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Sat, 26 May 2018 16:39:19 +0000
+
 fortune-zh (2.7) unstable; urgency=medium
 
   * Overhaul the cookies.
