@@ -1,0 +1,12 @@
+Version 0.3 (Aug 21 2006; Jian He <hejian.he@gmail.com>)
+	Fix locale error in gfortune-zh-tao, now it's not only support UTF-8, but also gb2312, gbk, big5 and other locale.
+	Fix Makefile, create symlink zh-tao.u8 when install.
+	Add detail document to README.ui.
+	Fix zh-tao data file, add footnote to every section.
+
+Version 0.2 (Aug 20 2006; Jian He <hejian.he@gmail.com>)
+	Add gfortune-zh-tao, it's a GUI fortune program for zh-tao.
+	Perfect the tao data file.
+
+Version 0.1 (Aug 20 2006; Jian He <hejian.he@gmail.com>)
+	Initial version.

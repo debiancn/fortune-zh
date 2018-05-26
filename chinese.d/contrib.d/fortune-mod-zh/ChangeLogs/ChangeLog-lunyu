@@ -1,0 +1,16 @@
+Version 0.3 (Aug 23 2006; Jian He <hejian.he@gmail.com>)
+	* Fix gfortune-zh-lunyu, filter terminal color code.
+	* Fix Makefile, set .PHONY, fix install dependence check.
+	* Fix README.utf8
+	* Fix zh-lunyu, add "　　" to the beginning of every lines, add
+	"　　－－《论语》" to every section, add terminal color codes.
+
+Version 0.2 (Aug 21 2006; Jian He <hejian.he@gmail.com>)
+	* Fix Makefile to create symlink zh-lunyu.u8.
+	* Add gfortune-zh-lunyu, a GUI fortune program for zh-lunyu.
+	* Add Copyright and License to INSTALL file.
+	* Add detail document to README.utf8.
+	* Perfect the lunyu data file.
+
+Version 0.1 (Aug 19 2006; Jian He <hejian.he@gmail.com>)
+	* Initial version.

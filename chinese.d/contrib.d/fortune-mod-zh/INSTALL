@@ -1,0 +1,4 @@
+install "fortune" first
+to install this program, just run "make install"
+if you have zenity and want to use gfortune-zh, just copy it to any where you
+like

@@ -1,0 +1,26 @@
+#!/bin/bash
+# Copyright 1999-2006 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+TITLE="中文fortune"
+FILE="$@"
+
+if [ ! -z $LC_ALL ]; then
+    LC_CTYPE="$LC_ALL"
+fi
+CHARSET=`echo ${LC_CTYPE#*.} | tr A-Z a-z | sed -e 's/-//g'`
+
+case "$CHARSET" in
+gb18030)    _TITLE=`echo $TITLE | iconv -f utf8 -t gb18030` ;;
+gb2312) _TITLE=`echo $TITLE | iconv -f utf8 -t gb2312` ;;
+gbk)    _TITLE=`echo $TITLE | iconv -f utf8 -t gbk` ;;
+big5)   _TITLE=`echo $TITLE | iconv -f utf8 -t big5` ;;
+*)  _TITLE=$TITLE ;;
+esac
+
+choozen="0"
+while [ "$choozen" == "0" ]; do
+    zenity --question --title "$_TITLE" --text "`fortune-zh $FILE | sed -e 's/\x1B\[..m//g' -e 's/\x1B\[m//g'`"
+    choozen="$?"
+done

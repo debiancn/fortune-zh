@@ -1,0 +1,8 @@
+Version 0.2 (Aug 21 2006; Jian He <hejian.he@gmail.com>)
+	* Add gfortune-zh-tang300, it's a GUI fortune project for zh-tang300.
+	* Fix Makefile, set .PHONY, fix install dependence check, create symlink
+	zh-tang300.u8 when install.
+	* Add detail documents to README.utf8
+
+Version 0.1 (Aug 20 2006; Zhang Le <robert.zhangle@gmail.com>)
+	* Initial versoin
