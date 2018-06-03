@@ -15,3 +15,10 @@ https://en.wikipedia.org/wiki/Euler_formula
 
 其中 e 为自然对数的底，i 为单位虚数，sin/cos为三角函数，参数 x 单位是弧度。
 %
+毕达哥拉斯定理 (Pythagorean Theorem)，AKA 勾股定理
+https://en.wikipedia.org/wiki/Pythagorean_theorem
+
+  a² + b² = c²
+
+其中 a, b, c 分别为直角三角形两条直角边和斜边的长度。
+%
