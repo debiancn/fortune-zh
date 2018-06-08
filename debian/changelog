@@ -1,3 +1,13 @@
+fortune-zh (2.8.1) unstable; urgency=medium
+
+  * Add one more trivial science cookie.
+  * Remove inappropriate cookies (Closes: #901026)
+    - Remove a contributed cookie that conveys incorrect value.
+    - Don't install contrib.d/fortune-mod-zh/src/joke by default,
+      since it is full of offensive content.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Fri, 08 Jun 2018 09:05:58 +0000
+
 fortune-zh (2.8) unstable; urgency=medium
 
   [ Boyuan Yang ]
