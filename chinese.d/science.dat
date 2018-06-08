@@ -7,13 +7,34 @@ https://en.wikipedia.org/wiki/Bayes%27_theorem
 
 其中 A 和 B 均为事件，并且 P(B)≠0 。
 %
-欧拉公式 (Euler's Formula)
+「欧拉公式 (Euler's Formula)」
 https://en.wikipedia.org/wiki/Euler_formula
 
-             ix
-           e    = cos(x) + i sin(x)
+           eⁱˣ = cos(x) + i sin(x)
 
-其中 e 为自然对数的底，i 为单位虚数，sin/cos为三角函数，参数 x 单位是弧度。
+    其中 e 为自然对数的底，i 为虚数单位，参数 x 的单位是弧度。
+
+欧拉公式有不止一种证明方式，这里简单描述一种使用幂级数证明的方式：
+
+                    (ix)²   (ix)³   (ix)⁴
+    eⁱˣ  = 1 + ix + ----- + ----- + ----- + ...
+                      2!      3!      4!
+
+                    x²   ix³   x⁴   ix⁵
+         = 1 + ix - -- - --- + -- + --- + ...
+                    2!    3!   4!    5!
+
+                x²   x⁴   x⁶   x⁸                x³   x⁵   x⁷
+         = (1 - -- + -- - -- + -- - ...) + i(x - -- + -- - -- + ...)
+                2!   4!   6!   8!                3!   5!   7!
+
+         = cos(x) + i sin(x)                                      ::
+
+    我们可以使用符号代数系统 Maxima 来帮助快速验证这个证明：
+
+        taylor(sin(x), x, 0, 8);
+        taylor(cos(x), x, 0, 8);
+        taylor(exp(x), x, 0, 8);
 %
 毕达哥拉斯定理 (Pythagorean Theorem)，AKA 勾股定理
 https://en.wikipedia.org/wiki/Pythagorean_theorem
