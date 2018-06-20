@@ -75,3 +75,23 @@ https://en.wikipedia.org/wiki/Pythagorean_theorem
      => a² + 2ab + b² = 2ab + c²
      => a² + b² = c²                                             ::
 %
+矩阵相乘(Matrix multiplication)
+https://en.wikipedia.org/wiki/Matrix_multiplication
+
+数学上，矩阵相乘是一个二元操作符。两个矩阵相乘后产生一个新的矩阵。
+矩阵相乘被设计来表示由矩阵表达的线性映射的组合，因此是线性代数里非常基础的工具。
+具体来说，假设有尺寸为 n × m 的矩阵 A 和尺寸为 m × p 的矩阵 B ，那么它们
+的矩阵乘积 AB 的尺寸为 n × p ，其中 A 每一行的 m 个元素都分别与 B 中每一列
+的 m 个元素相乘并求和，作为矩阵 AB 中的元素。当两个线性映射由矩阵表示时，
+矩阵乘积代表线性映射的组合。
+%
+矩阵 LU 分解 (lower-upper)
+https://en.wikipedia.org/wiki/LU_decomposition
+
+通过 LU 分解可以将一个矩阵分解为一个下三角矩阵和上三角矩阵的乘积形式。
+有时候为了确保 LU 分解能够顺利进行，还需要加入排列矩阵 P (Permutation)。
+
+    A = LU    或    PA = LU
+
+LU 分解可以看作矩阵形式的高斯消元(Gaussian Elimination)。
+%
