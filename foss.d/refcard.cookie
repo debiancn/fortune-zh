@@ -1,0 +1,18 @@
+# https://www.debian.org/doc/manuals/refcard/refcard.zh_CN.pdf
+# https://salsa.debian.org/ddp-team/refcard
+#
+# 本文档版 权 适用于 GNU 通用公共 许 可版本 3 或更高版本的相关条 款。拷
+# 贝 和翻 译 的情况可以参考 https://www.debian.org/doc/manuals/refcard/
+# ，在 这 里您可以 获 得本参考卡片的最新 版本。
+# 版权 © 2004, 2010 W. Martin Borgert
+# 版权 © 2016, 2017 Holger Wansing
+# 版权 © 2005, 2008 Aili Liang (Chinese)
+# 版权 © 2008 Deng Xiyue (Chinese)
+# 版权 © 2010, 2016 Yanliang Tang (Chinese)
+#
+# The cookies are modified from:
+# https://salsa.debian.org/ddp-team/refcard/raw/debian/master/po4a/zh_CN.po
+# How to update this file:
+# 1. wget https://salsa.debian.org/ddp-team/refcard/raw/debian/master/po4a/zh_CN.po -O refcard_po
+# 2. python3 refcard.py refcard_po
+# 3. manually edit the generated content and put them here
