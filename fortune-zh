@@ -7,7 +7,7 @@ FORTUNE="/usr/games/fortune"
 
 # The old version (1.*) of fortune-zh contains only tang300 and song100.
 # Note, $\sum_{i} P_i = 1$, i.e. all the possibilities must sum to 1.
-DICT="16% tang300 05% song100 79% chinese"
+DICT="7% tang300 2% song100 91% chinese"
 
 # check LANG
 if [ ! -z $LC_ALL ]; then 
