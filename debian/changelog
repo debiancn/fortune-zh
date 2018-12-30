@@ -1,3 +1,27 @@
+fortune-zh (2.90) UNRELEASED; urgency=medium
+
+  * Cookie updates, apart from importing lots of new cookies:
+    + Typesetting updates for existing cookies.
+    + Some new contents added into existing cookies.
+    + Overhaul the directory hierarchy.
+    + Chinese version of Debian Social Contract.
+    + Chinese version of Debian Free Software Guide.
+    + My translated Chinese version of Debian Code of Conduct.
+    + Chinese version of Reference Card
+    + Chinese version of Debian Reference (Osamu)
+  - Remove unused and legacy files.
+  * Add a draft for classifying different cookie categories.
+  * Switch to new cookie data format
+  * Add cookie2dat.py converter.
+  * Aggressively remove the legacy transitional dummy package.
+  * Overhaul Makefile.
+  * Update Year in Copyright info.
+  * Support ENV variable FORTUNEZH_NOCOLOR to filter ANSI sequence.
+  * Change probability distribution in fortune-zh.
+  * Override more false-positive lintian Errors and Warnings.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Sun, 30 Dec 2018 10:19:32 +0000
+
 fortune-zh (2.8.1) unstable; urgency=medium
 
   * Add one more trivial science cookie.
