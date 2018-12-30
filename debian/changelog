@@ -1,4 +1,4 @@
-fortune-zh (2.90) UNRELEASED; urgency=medium
+fortune-zh (2.90) unstable; urgency=medium
 
   * Cookie updates, apart from importing lots of new cookies:
     + Typesetting updates for existing cookies.
@@ -20,7 +20,7 @@ fortune-zh (2.90) UNRELEASED; urgency=medium
   * Change probability distribution in fortune-zh.
   * Override more false-positive lintian Errors and Warnings.
 
- -- Mo Zhou <cdluminate@gmail.com>  Sun, 30 Dec 2018 10:19:32 +0000
+ -- Mo Zhou <cdluminate@gmail.com>  Sun, 30 Dec 2018 10:28:09 +0000
 
 fortune-zh (2.8.1) unstable; urgency=medium
 
