@@ -1,2 +1,0 @@
-# [lintian I] the "chinese" refers data file, which should not be "Chinese".
-fortune-zh: capitalization-error-in-description chinese Chinese
