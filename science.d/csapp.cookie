@@ -1,3 +1,5 @@
+# CSAPP -- Computer Systems, A Programmer's Perspective
+# 《深入理解计算机系统》机械工业出版社
 文件是对I/O设备的抽象表示，
 虚拟存储器是对主存和磁盘I/O设备的抽象表示，
 进程则是对处理器，主存和I/O设备的抽象表示。
