@@ -4,7 +4,7 @@ Source: https://anonscm.debian.org/gitweb/?p=chinese/fortune-zh.git
 
 Files:     *
 Copyright: 2001-2009 Yu Guanghui <ygh@debian.org>
-           2015-2016 Mo Zhou     <cdluminate@gmail.com>
+           2015-2018 Mo Zhou     <cdluminate@gmail.com>
 Comment:
  This package was debianized by Yu Guanghui ygh@debian.org on
  Upstream Author: Yu Guanghui <ygh@debian.org>
@@ -26,4 +26,3 @@ License: GPL-3.0+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
-
