@@ -1,3 +1,8 @@
+#TAOUP, i.e. «The Art Of UNIX Programming», by Eric S. Raymond.
+#*NOT* «TAOCP» by Knuth.
+#
+#"tapup.dat" is a collection of piecies from the translated
+#version of the book TAOUP -- 《UNIX编程艺术》姜宏等译，电子工业出版社。
 模块原则：使用简洁的接口拼合简单的部件。
     -- Eric S. Raymond, UNIX哲学基础第一条，《UNIX编程艺术》
 %
