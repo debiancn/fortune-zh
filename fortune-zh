@@ -23,6 +23,10 @@ case "$LANG" in
 	LANG=zh_TW.UTF8 $FORTUNE $DICT | iconv -c -f utf8 -t big5
 	;;
 *)
-	$FORTUNE $DICT 
+	if [ ! -z "$FORTUNEZH_NOCOLOR" ]; then
+		$FORTUNE $DICT | sed -r "s/\x1b\[([0-9]{1,2}(;[0-9]{1,2})?)?m//g"
+	else
+		$FORTUNE $DICT
+	fi
 	;;
 esac
