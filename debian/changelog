@@ -1,3 +1,9 @@
+fortune-zh (2.91) unstable; urgency=medium
+
+  * Add the missing B-D python3 . (Closes: #917845)
+
+ -- Mo Zhou <cdluminate@gmail.com>  Mon, 31 Dec 2018 05:23:58 +0000
+
 fortune-zh (2.90) unstable; urgency=medium
 
   * Cookie updates, apart from importing lots of new cookies:
