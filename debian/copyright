@@ -4,7 +4,7 @@ Source: https://anonscm.debian.org/gitweb/?p=chinese/fortune-zh.git
 
 Files:     *
 Copyright: 2001-2009 Yu Guanghui <ygh@debian.org>
-           2015-2018 Mo Zhou     <cdluminate@gmail.com>
+           2015-2019 Mo Zhou     <cdluminate@gmail.com>
 Comment:
  This package was debianized by Yu Guanghui ygh@debian.org on
  Upstream Author: Yu Guanghui <ygh@debian.org>
