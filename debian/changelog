@@ -187,7 +187,7 @@ fortune-zh (1.9) unstable; urgency=low
   * New maintainer.
   * debian/control:
     - bump standards version to 3.9.2.
-    - add Vcs-* fields. 
+    - add Vcs-* fields.
     - update description.
     - add misc:Depends to depends.
   * bump compat level to 7:
@@ -197,12 +197,12 @@ fortune-zh (1.9) unstable; urgency=low
   * debian/README.debian:
     - fix typo
     - change encoding to UTF-8.
-  * Makefile: 
+  * Makefile:
     - create dest dir first.
     - don't raise error when clean.
     - install fortune-zh to /usr/games
-  * debian/rules: updated. 
-  * debian/copyright: updated. 
+  * debian/rules: updated.
+  * debian/copyright: updated.
   * Fix "Fix a few characters + fortune files in Traditional Chinese"
     (Closes: #427092)
     - song100: updated.
@@ -211,7 +211,7 @@ fortune-zh (1.9) unstable; urgency=low
 
 fortune-zh (1.8) unstable; urgency=low
 
-  * Changed Architecture to all. (Closes:Bug#518054) 
+  * Changed Architecture to all. (Closes:Bug#518054)
 
  -- Yu Guanghui <ygh@debian.org>  Wed, 04 Mar 2009 22:40:24 +0800
 
@@ -231,27 +231,27 @@ fortune-zh (1.6) unstable; urgency=low
 
 fortune-zh (1.5) unstable; urgency=low
 
-  * Fixed old spell errors.(closes:Bug#124628, Bug#120803) 
-  * Converted data files to utf8, fortune can recode. fortune-zh isn't 
+  * Fixed old spell errors.(closes:Bug#124628, Bug#120803)
+  * Converted data files to utf8, fortune can recode. fortune-zh isn't
     required, but it's still kept for compatibility. (closes:Bug#204380)
 
  -- Yu Guanghui <ygh@debian.org>  Thu, 12 Feb 2004 20:19:27 +0800
 
 fortune-zh (1.4) unstable; urgency=low
 
-  * New release. 
+  * New release.
 
  -- Yu Guanghui <ygh@debian.org>  Mon,  5 Mar 2001 21:09:54 +0800
 
 fortune-zh (1.3) unstable; urgency=low
 
-  * Fixed debian/rules, do nothing under binary-indep. (closes:Bug#88581) 
+  * Fixed debian/rules, do nothing under binary-indep. (closes:Bug#88581)
 
  -- Yu Guanghui <ygh@debian.org>  Mon,  5 Mar 2001 18:06:43 +0800
 
 fortune-zh (1.2) unstable; urgency=low
 
-  * Added depend on zh-autoconvert. 
+  * Added depend on zh-autoconvert.
 
  -- Yu Guanghui <ygh@debian.org>  Sun,  4 Mar 2001 18:42:12 +0800
 
