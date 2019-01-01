@@ -21,9 +21,9 @@ def colorize(line):
     elif re.match('^\s*#.*', line):
         return Red(line)
     else:
-        line = re.sub('(“.*?”)', '\x1b[35m\\1\x1b[;m', line)
-        line = re.sub('(".*?")', '\x1b[35m\\1\x1b[;m', line)
-        line = re.sub('(\'.*?\')', '\x1b[35m\\1\x1b[;m', line)
+        line = re.sub('(“.*?”)', '\x1b[35;1m\\1\x1b[;m', line)
+        line = re.sub('(".*?")', '\x1b[35;1m\\1\x1b[;m', line)
+        line = re.sub('(\'.*?\')', '\x1b[35;1m\\1\x1b[;m', line)
         #line = re.sub('^(\s*[\d\.]*)', '\x1b[33;1m\\1\x1b[;m', line)
         line = re.sub('(\w*?\(\d\))', '\x1b[34;1m\\1\x1b[m', line)
         line = re.sub('(^\s*\*)', '\x1b[33;1m\\1\x1b[;m', line)
