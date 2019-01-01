@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: fortune-zh
 Source: https://anonscm.debian.org/gitweb/?p=chinese/fortune-zh.git
 
