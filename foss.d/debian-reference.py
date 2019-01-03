@@ -25,13 +25,13 @@ def colorize(line):
         line = re.sub('(".*?")', '\x1b[35;1m\\1\x1b[;m', line)
         line = re.sub('(\'.*?\')', '\x1b[35;1m\\1\x1b[;m', line)
         #line = re.sub('^(\s*[\d\.]*)', '\x1b[33;1m\\1\x1b[;m', line)
-        line = re.sub('([\w\-]*?\(\d\))', '\x1b[34;1m\\1\x1b[m', line)
+        line = re.sub('([\w\-]+?\(\d\))', '\x1b[34;1m\\1\x1b[m', line)
         line = re.sub('(^\s*\*)', '\x1b[33;1m\\1\x1b[;m', line)
         line = re.sub('(^\s*\+)', '\x1b[33;1m\\1\x1b[;m', line)
-        line = re.sub('注意', '\x1b[33;1m注意\x1b[m', line)
-        line = re.sub('小心', '\x1b[33;1m小心\x1b[m', line)
-        line = re.sub('提示', '\x1b[36;1m提示\x1b[m', line)
-        line = re.sub('警告', '\x1b[31;1m警告\x1b[m', line)
+        if re.match(r'\s*注意\s*', line): line = re.sub('注意', '\x1b[33;1m注意\x1b[m', line)
+        if re.match(r'\s*小心\s*', line): line = re.sub('小心', '\x1b[33;1m小心\x1b[m', line)
+        if re.match(r'\s*提示\s*', line): line = re.sub('提示', '\x1b[36;1m提示\x1b[m', line)
+        if re.match(r'\s*警告\s*', line): line = re.sub('警告', '\x1b[31;1m警告\x1b[m', line)
         #line = re.sub('(\d*?)', '\x1b[36m\\1\x1b[m', line)
         return line
 
