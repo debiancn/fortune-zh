@@ -1,3 +1,13 @@
+fortune-zh (2.94) unstable; urgency=medium
+
+  * Misc updates for the Debian Reference cookie generator:
+    + Replace table frames with Unicode characters.
+    + Update a regex for manpage keywords.
+    + Fix colorizing glitches.
+  * Refresh debian-reference.cookie with updated colorizing.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Thu, 03 Jan 2019 13:08:01 +0000
+
 fortune-zh (2.93) unstable; urgency=medium
 
   * Fix several errors in refcard.cookie
