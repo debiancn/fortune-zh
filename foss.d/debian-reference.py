@@ -25,7 +25,7 @@ def colorize(line):
         line = re.sub('(".*?")', '\x1b[35;1m\\1\x1b[;m', line)
         line = re.sub('(\'.*?\')', '\x1b[35;1m\\1\x1b[;m', line)
         #line = re.sub('^(\s*[\d\.]*)', '\x1b[33;1m\\1\x1b[;m', line)
-        line = re.sub('(\w*?\(\d\))', '\x1b[34;1m\\1\x1b[m', line)
+        line = re.sub('([\w\-]*?\(\d\))', '\x1b[34;1m\\1\x1b[m', line)
         line = re.sub('(^\s*\*)', '\x1b[33;1m\\1\x1b[;m', line)
         line = re.sub('(^\s*\+)', '\x1b[33;1m\\1\x1b[;m', line)
         line = re.sub('注意', '\x1b[33;1m注意\x1b[m', line)
