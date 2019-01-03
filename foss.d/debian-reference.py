@@ -44,6 +44,24 @@ if __name__ == '__main__':
     lines = open('debian-reference.zh-cn.txt', 'r').readlines()
     for i, line in enumerate(lines):
         line = line.rstrip()
+        # deal with tables
+        if re.match(r'\s*\+\-*\+\s*', line) and not lines[i+1].strip():
+            line = re.sub(r'\+\-', '└-', line)
+            line = re.sub(r'\-\+', '-┘', line)
+            line = re.sub(r'\-', '─', line)
+        elif re.match(r'\s*\+\-*\+\s*', line) and not lines[i-1].strip():
+            line = re.sub(r'\+\-', '┌-', line)
+            line = re.sub(r'\-\+', '-┐', line)
+            line = re.sub(r'\-', '─', line)
+        elif re.match(r'\s*\|[\-\+]*\|\s*', line):
+            line = re.sub(r'\|\-', '├-', line)
+            line = re.sub(r'\-\|', '-┤', line)
+            line = re.sub(r'\-\+\-', '-┼-', line)
+            line = re.sub(r'\-', '─', line)
+        elif re.match(r'\s*\|.*\|*\|\s*', line):
+            line = re.sub(r'\|', '│', line)
+
+        # colorization
         if re.match(r'^\S+.*', line) and i > 0:
             print('                           -- Osamu Aoki (青木修), Debian 参考手册（版本 2.73）')
             print('%')
