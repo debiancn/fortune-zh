@@ -1,3 +1,11 @@
+fortune-zh (2.95) unstable; urgency=medium
+
+  * Team upload.
+  * quotes.d/bingxin.cookie: Remove a trailing space that triggered
+    fortune cookie grammar error. (Closes: #928138)
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 28 Apr 2019 16:02:39 -0400
+
 fortune-zh (2.94) unstable; urgency=medium
 
   * Misc updates for the Debian Reference cookie generator:
