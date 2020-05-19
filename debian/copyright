@@ -1,10 +1,12 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: fortune-zh
+Upstream-Contact: xiao sheng wen <atzlinux@sina.com>
 Source: https://anonscm.debian.org/gitweb/?p=chinese/fortune-zh.git
 
 Files:     *
 Copyright: 2001-2009 Yu Guanghui <ygh@debian.org>
            2015-2019 Mo Zhou     <cdluminate@gmail.com>
+           2020 xiao sheng wen <atzlinux@sina.com>
 Comment:
  This package was debianized by Yu Guanghui ygh@debian.org on
  Upstream Author: Yu Guanghui <ygh@debian.org>
