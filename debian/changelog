@@ -1,3 +1,16 @@
+fortune-zh (2.96) unstable; urgency=medium
+
+  [ 肖盛文 ]
+  * d/control:
+   - Bump debhelper-compat (= 13)
+   - Bump Standards-Version: 4.5.0
+   - add Rules-Requires-Root: no
+   - add New Uploaders: xiao sheng wen <atzlinux@sina.com>
+  * d/copyright: add Upstream-Contact:
+  * New maintainer (Closes: #910181)
+
+ -- xiao sheng wen <atzlinux@sina.com>  Tue, 19 May 2020 11:00:09 +0800
+
 fortune-zh (2.95) unstable; urgency=medium
 
   * Team upload.
