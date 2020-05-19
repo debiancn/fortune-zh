@@ -3,7 +3,10 @@ Section: games
 Priority: optional
 Maintainer: Debian Chinese Team <chinese-developers@lists.alioth.debian.org>
 Uploaders: Mo Zhou <cdluminate@gmail.com>
-Build-Depends: debhelper (>= 11~), fortune-mod, python3,
+Build-Depends:
+ debhelper-compat (= 13),
+ fortune-mod,
+ python3,
 Standards-Version: 4.3.0
 Vcs-Browser: https://salsa.debian.org/chinese-team/fortunes-zh
 Vcs-Git: https://salsa.debian.org/chinese-team/fortunes-zh.git
