@@ -2,12 +2,14 @@ Source: fortune-zh
 Section: games
 Priority: optional
 Maintainer: Debian Chinese Team <chinese-developers@lists.alioth.debian.org>
-Uploaders: Mo Zhou <cdluminate@gmail.com>
+Uploaders: Mo Zhou <cdluminate@gmail.com>,
+           xiao sheng wen <atzlinux@sina.com>,
 Build-Depends:
  debhelper-compat (= 13),
  fortune-mod,
  python3,
-Standards-Version: 4.3.0
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
 Vcs-Browser: https://salsa.debian.org/chinese-team/fortunes-zh
 Vcs-Git: https://salsa.debian.org/chinese-team/fortunes-zh.git
 
