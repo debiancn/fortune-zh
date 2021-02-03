@@ -1,3 +1,14 @@
+fortune-zh (2.97) unstable; urgency=medium
+
+  * delete unused lintian overrides
+  * d/control: Bump Standards-Version 4.5.1
+  * d/copyright:
+      - delete Upstream info, as this is a Debian native package
+      - update Source URL to salsa git
+      - update Copyright year to 2021
+
+ -- xiao sheng wen <atzlinux@sina.com>  Wed, 03 Feb 2021 23:12:09 +0800
+
 fortune-zh (2.96.1) unstable; urgency=medium
 
   [ 肖盛文 ]
