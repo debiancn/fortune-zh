@@ -1,6 +1,2 @@
 # [lintian I] the "chinese" refers data file, which should not be "Chinese".
 fortunes-zh: capitalization-error-in-description chinese Chinese
-# False-positive, this is documentation!
-fortunes-zh: missing-depends-on-sensible-utils usr/share/games/fortunes/chinese
-# False-positive, this is documentation!
-fortunes-zh: uses-dpkg-database-directly usr/share/games/fortunes/chinese
