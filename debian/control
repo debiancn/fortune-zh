@@ -15,6 +15,7 @@ Vcs-Git: https://salsa.debian.org/chinese-team/fortunes-zh.git
 Package: fortunes-zh
 Architecture: all
 Depends: ${misc:Depends}, fortune-mod
+Provides: fortune-cookie-db
 Breaks: fortune-zh (<< 2.2)
 Replaces: fortune-zh (<< 2.2)
 Description: Chinese Data files for fortune
