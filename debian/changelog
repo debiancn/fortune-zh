@@ -1,3 +1,12 @@
+fortune-zh (2.98) unstable; urgency=medium
+
+  [ 肖盛文 ]
+  * d/control:
+      - Bump Standards-Version: 4.6.0
+      - add Provides: fortune-cookie-db, (Closes: #448063)
+
+ -- xiao sheng wen <atzlinux@sina.com>  Mon, 20 Dec 2021 22:00:29 +0800
+
 fortune-zh (2.97) unstable; urgency=medium
 
   * delete unused lintian overrides
