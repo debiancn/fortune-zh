@@ -1,3 +1,13 @@
+fortune-zh (2.98.1) unstable; urgency=medium
+
+  * Team upload.
+  * Remove foss.d/debian_boyuan.cookie.
+  * debian/control: Bump Standards-Version to 4.7.0.
+  * debian/copyright: Use SPDX license name.
+  * song100: Remove trailing spaces. (LP: #2046347)
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 06 Nov 2024 10:15:51 -0500
+
 fortune-zh (2.98) unstable; urgency=medium
 
   [ 肖盛文 ]
