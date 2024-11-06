@@ -7,7 +7,7 @@ Build-Depends:
  debhelper-compat (= 13),
  fortune-mod,
  python3,
-Standards-Version: 4.6.0
+Standards-Version: 4.7.0
 Rules-Requires-Root: no
 Vcs-Browser: https://salsa.debian.org/chinese-team/fortunes-zh
 Vcs-Git: https://salsa.debian.org/chinese-team/fortunes-zh.git
